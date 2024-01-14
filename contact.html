@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body >
+ <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">iCoder</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-disabled="true">Contact</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Learn
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML</a></li>
+                <li><a class="dropdown-item" href="#">CSS</a></li>
+                <li><a class="dropdown-item" href="#">SASS</a></li>
+                <li><a class="dropdown-item" href="#">JAVA SCRIPTS</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+         </div>
+      </div>
+    </nav>
+    
+<!-- form  -->
+
+    <section class="contactscont">
+        <div class="container">
+         <div class="row"> 
+            <div class="col-md-6">
+            <div class="contactheading d-flex justify-content-center align-item-center mb-4 my-4">
+                <h1> Contact with iCoder  <span class="badge bg-warning"> NOW</span></h1>
+            </div>
+            <form class="row g-3 mb-2">
+                <div class="formcontainer">
+                    <div class="mb-3 col-md-7">
+                        <label for="emailInput" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3 col-md-7">
+                        <label for="querySelect" class="form-label">Select Query:</label>
+                        <select class="form-select" id="querySelect" aria-label="Select your query">
+                            <option selected>Open this select query</option>
+                            <option value="1">HTML</option>
+                            <option value="2">CSS/SCSS</option>
+                            <option value="3">JavaScript</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 col-md-7">
+                        <label for="messageTextarea" class="form-label">Message:</label>
+                        <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3 form-check col-md-12">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 my-5">
+            <h4 class="fst-italic">Recent posts</h4>
+            <p class="text-muted">
+                Welcome to iCoder, where we believe in the power of coding to transform ideas into reality. 
+                Join us on a journey of innovation and learning. Whether you're a coding enthusiast or a seasoned developer, 
+                iCoder is your platform to excel in the digital world.
+            </p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                        <img class="bd-placeholder-img" width="100%" height="96"  src="img/com103.jpg" alt=".." srcset="">
+                        <div class="col-lg-8">
+                          <h6 class="mb-0">Example blog post title</h6>
+                          <small class="text-body-secondary">January 15, 2023</small>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                          <img class="bd-placeholder-img" width="100%" height="96"  src="img/com102.jpg" alt=".." srcset="">
+                          <div class="col-lg-8">
+                            <h6 class="mb-0">This is another blog post title</h6>
+                            <small class="text-body-secondary">January 14, 2023</small>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                          <img class="bd-placeholder-img" width="100%" height="96"  src="img/com101.jpg" alt=".." srcset="">
+                          <div class="col-lg-8">
+                            <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
+                            <small class="text-body-secondary">January 13, 2023</small>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+        </div>
+       </div>
+     </div>
+    </section>
+    
+</section>
+
+
+<!-- footer -->
+<hr class="featurette-divider">
+    <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+            <small class="d-block mb-3 text-body-secondary">© 2017–2023</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   </body>
+</html>
